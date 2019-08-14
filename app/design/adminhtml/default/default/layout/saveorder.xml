@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <saveorder_adminhtml_saveorder_index>
+        <reference name="content">
+            <block type="saveorder/adminhtml_saveorder" name="saveorder" />
+        </reference>
+    </saveorder_adminhtml_saveorder_index>
+	<adminhtml_sales_order_create_index>
+		<reference name="head">
+			<action method="removeItem"><type>js</type><name>mage/adminhtml/sales.js</name></action>
+			<action method="addJs"><file>saveorder/adminhtml/sales.js</file></action>
+		</reference>
+	</adminhtml_sales_order_create_index>
+</layout>

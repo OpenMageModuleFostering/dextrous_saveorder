@@ -1,0 +1,32 @@
+<config>
+    <menu>
+        <sales translate="title" module="sales">
+            <title>Sales</title>
+            <sort_order>20</sort_order>
+            <children>
+                <saveorder translate="title" module="saveorder">
+                    <title>Saved Orders*</title>
+                    <action>saveorder/adminhtml_saveorder</action>
+                    <sort_order>15</sort_order>
+                </saveorder>
+			</children>
+		</sales>
+	</menu>
+	<acl>
+        <resources>
+            <admin>
+                <children>
+                    <sales translate="title" module="sales">
+                        <title>Sales</title>
+                        <children>
+							<saveorder>
+								<title>Saveorder Module</title>
+								<sort_order>10</sort_order>
+							</saveorder>
+						</children> 
+					</sales>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

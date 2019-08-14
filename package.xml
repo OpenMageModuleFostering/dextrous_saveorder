@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>Dextrous_Saveorder</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extension enables the feature to save an order in admin like frontend cart in magento.</summary>
+    <description>Extension enables the feature to save an order in admin like frontend cart in magento.&#xD;
+&#xD;
+When admin create an order in admin for any customer but not want to place order now then extension provides facility to save current order and he can place it after whenever he want. Admin can also update this order many times.&#xD;
+&#xD;
+Admin can manage saved order navigate to "Sales-&gt;Saved Orders".</description>
+    <notes>Stable Releases.</notes>
+    <authors><author><name>Hemant kumar sharma</name><user>hemantkr</user><email>hemant7677@gmail.com</email></author></authors>
+    <date>2014-11-03</date>
+    <time>10:17:59</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Dextrous_Saveorder.xml" hash="5bce465d1c83a51a88df758cde6fd174"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="saveorder.xml" hash="64f0f43277a908bb463c1bb9e2f0648e"/></dir></dir></dir></dir></target><target name="magelocal"><dir name="Dextrous"><dir name="Saveorder"><dir name="Block"><dir name="Adminhtml"><dir name="Saveorder"><file name="Grid.php" hash="408db646829ebc1e71b96791ba9682b5"/></dir><file name="Saveorder.php" hash="b9ccd14d4f6c3a9961554190e643d424"/></dir><dir name="Sales"><dir name="Order"><file name="Create.php" hash="7ba9c12f8dbe63a356424aefbbef0a10"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="3dfb8221b5504d521cdc227d50c9c239"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Saveorder"><file name="Collection.php" hash="6e0b13bd5959d9df7da41f6bad8fcd3d"/></dir><file name="Saveorder.php" hash="ee7687d83799b32a2db92a763cd29715"/></dir><file name="Saveorder.php" hash="799ac4f5b2c516cdca17e7bcc4bcd466"/><file name="Status.php" hash="ae735f2057909ee925bb74e33bf79039"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="SaveorderController.php" hash="9f3831401085693ce6fbbe7f7e5fbf39"/></dir><dir name="Sales"><dir name="Order"><file name="EditController.php" hash="bf24bfe5c03625e01c4e645a1f106c89"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="f5ed47b86cd96d17e395cae8466caebb"/><file name="config.xml" hash="27be629c89e5d239fef2b52c444a6554"/></dir><dir name="sql"><dir name="saveorder_setup"><file name="mysql4-install-0.1.0.php" hash="0e385d982477811b930f27e9acfae40f"/></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="saveorder"><dir name="adminhtml"><file name="sales.js" hash="fec50c5de5ea34fa50a818fe398ee7e6"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
