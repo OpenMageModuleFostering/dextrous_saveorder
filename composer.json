@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Dextrous_Saveorder",
+    "name": "openmage-module-fostering\/dextrous_saveorder",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Extension enables the feature to save an order in admin like frontend cart in magento.",
     "authors": [
